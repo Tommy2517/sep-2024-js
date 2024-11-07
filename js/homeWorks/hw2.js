@@ -214,13 +214,15 @@ let coursesAndDurationArray = [
     {title: 'FullStack', monthDuration: 7},
     {title: 'Frontend', monthDuration: 4}
 ];
-for (const item of coursesAndDurationArray) {
-    if(item.monthDuration > 5)console.log(item.title + " = is super!");
-    
-}
+
 if(coursesAndDurationArray[0].monthDuration > 5) console.log("Super!");
 if(coursesAndDurationArray[1].monthDuration > 5) console.log("Super!");
 if(coursesAndDurationArray[2].monthDuration > 5) console.log("Super!");
 if(coursesAndDurationArray[3].monthDuration > 5) console.log("Super!");
 if(coursesAndDurationArray[4].monthDuration > 5) console.log("Super!");
 if(coursesAndDurationArray[5].monthDuration > 5) console.log("Super!");
+
+for (const item of coursesAndDurationArray) {
+    if(item.monthDuration > 5)console.log(item.title + " = is super!");
+    
+} //sorry ❤

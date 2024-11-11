@@ -3,5 +3,5 @@
 // import {} from "./lessons/lesson3_loops.js"
 // import {} from "./homeWorks/hw1.js"
 // import {} from "./homeWorks/hw2.js"
-// import {} from "./other.js"
-import {} from "./homeWorks/hw3/hw3add.js"
+// import {} from "./homeWorks/hw3/hw3add.js"
+import {} from "./homeWorks/hw4-func/hw4-func.js"

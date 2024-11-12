@@ -1,7 +1,7 @@
 // #I2XsG6f
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
     function squareFunc(a, b) {
-        return a + b
+        return a * b
     }
 // #ETGAxbEn8l
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
@@ -28,7 +28,7 @@
     function paragraphFunc(p) {
         return document.write(`<p style="color:red">${p}</p>`)
     }
-    paragraphFunc('You')
+    paragraphFunc('Yo;xklfdblkdfbklfu')
 // #hOL6126
 // - створити функцію яка створює ul з трьома елементами li та виводить його через document.write. Текст li задати через аргумент всім однаковий
     function ulFunc(text) {
@@ -44,7 +44,7 @@
 // #0Kxco1edSN
 // - створити функцію яка створює ul з  елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл) та виводить його через document.write
     function wtFunc(text,li) {
-        return (document.write(
+        document.write(
             `
                 <ul>
                     <script>
@@ -54,7 +54,6 @@
                     </script>
                 </ul>
             `)
-        )
     }
     wtFunc('wow',2)
 // #gEFoxMMO

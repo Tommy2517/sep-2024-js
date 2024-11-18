@@ -10,22 +10,27 @@
 <body>
 
 <script>
-    // let str = 'hello okten !!!';
+    // let str = 'hello, world';
     // console.log(str);
-    // // let s = str.concat('!!!');
-    // // console.log(s);
+    // let s = str.concat(5); // = соединяет элементы, возвращает строку
+    // console.log(s);
     // console.log(str.toUpperCase());
     // console.log(str.toLowerCase());
-    // console.log(str.startsWith('hel'));
-    // console.log(str.endsWith('en'));
-    // console.log(str.substring(0, 7));
-    // console.log(str.indexOf('o'));
-    // console.log(str.lastIndexOf('o'));
-    // console.log(str.indexOf('o', 5));
-    // console.log(str.charAt(8));
-    // // console.log(str.replace('e', '!'));
-    // console.log(str.replaceAll('e', '!'));
-    // let split = str.split(' ');
+    // console.log(str.startsWith('hel')); // проверка на совпадение ("строка", начать с >>>)=>{} 
+    // console.log(str.endsWith('en')); // проверка на совпадение с конца ("строка", начать с <<<)=>{} 
+
+    //методы ниже похожи, но разница в обработке отрицательных аргументов и если первый аргумент больше.
+    // console.log(str.substring(0, 7)); возвращает символы из строки начиная (с, до)=>
+    // console.log(str.slice(0, 7)); возвращает символы из строки начиная (с, до)=>
+
+    // console.log(str.indexOf('o')); //возвращает индекс первого совпавшего символа
+    // console.log(str.lastIndexOf('o')); //возвращает индекс последнего совпавшего символа
+    // console.log(str.indexOf('o', 5)); //возвращает индекс первого совпавшего символа начиная с 5 символа
+    // console.log(str.charAt(8)); // возвращает символ из указанного индекса.
+    // console.log(str.charCodeAt(0)); // 65 (код символа 'A')
+    // console.log(str.replace('o', '!')); //заменяет первый совпавший символ о на !. /е/g заменит все символы о
+    // console.log(str.replaceAll('o', '!')); // заменяет все символы о на !.
+    // let split = str.split(' '); // создает массив, добавляет в него элементы из строки разделенные указаным символом. 
     // console.log(split);
 
 </script>

@@ -13,4 +13,5 @@
 // import {} from "./homeWorks/hw4-func/hw4-func.js"
 // import {} from "./homeWorks/hw5-func-p2/hw5.js"
 // import {} from "./lessons/lesson6_array_functions/01.String functions - самостійне опрацювання/index.html"
-import {} from "./homeWorks/hw-6-array-func/hw6.js"
+// import {} from "./homeWorks/hw-6-array-func/hw6.js"
+import {} from "./homeWorks/hw7-classes/hw-7.js"

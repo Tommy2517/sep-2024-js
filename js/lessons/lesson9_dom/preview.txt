@@ -1,0 +1,44 @@
+JS preview | DOM   Об'єктна модель документа та пошук елементів
+JS preview | Forms API
+JS preview | Маніпуляція DOM елементами
+JS preview | Створення елементів
+
+
+
+JS preview | DOM   Об'єктна модель документа та пошук елементів
+1. DOM document object model = object
+2.document.body.children
+3.dicument.innerHtml
+4.document.getElementById()
+5.dicument.getElementsByClassname()
+6.dicument.getElementsByTagName()
+7.document.querySelector('ul')
+8.document.querySelectorAll('.menu:nth-child(2) > li')
+
+
+JS preview | Forms API
+1. forms (<input type='' name='userName'> <button> ) <form action='url',name='f1'
+2. document.forms = return all forms from html page
+3. document.forms.f1.(userName,mail...)
+
+
+
+
+JS preview | Маніпуляція DOM елементами
+1. getElemById, elem.innerText, elem.style
+2.classlist (.keys(), .item(index) 
+.contains('class' (is have?)) .toggle('class'))
+3. getAttribute('id' '1232') заменяет атрибут
+4.elem.previousElementSibling = возвращает элемент находящийся перед вызванным элементом
+5.elem.nextElementSibling = возвращает элемент находящийся перед вызванным элементом
+6.elemChildrens = 
+7.elemChildNodes
+8.elem.outerHTML
+
+
+
+
+
+JS preview | Створення елементів
+1.document.createElement('div')
+2.document.append('div')

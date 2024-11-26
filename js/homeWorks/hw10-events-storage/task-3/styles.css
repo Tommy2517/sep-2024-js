@@ -1,0 +1,20 @@
+#main{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#btn{
+    color: red;
+}
+
+.userBlock{
+    width: 200px;
+    text-align: center;
+    /* height: 100px; */
+    background: silver;
+}

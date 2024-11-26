@@ -1,0 +1,23 @@
+body{
+    /* display: flex; */
+    align-items: center;
+    /* flex-direction: column; */
+}
+#main{
+    display: flex;
+}
+button{
+    height: 50px;
+    font-size: 32px;
+    color: orange;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: solid 2px;
+    gap: 15px;
+    padding: 10px;
+}

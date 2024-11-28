@@ -25,10 +25,21 @@ const obj7 = {
     }
 }
 
+
+
+
+
+
+
+
 const clone = function(obj) {
+
     if (obj && typeof obj !== null) {
+
         let clone = JSON.parse(JSON.stringify(obj))
+
         const cloneFunc = (innerObj,cloneObj)=>{
+
             for (const item in innerObj) {
                 if (typeof innerObj[item] === 'function') {
                     cloneObj[item] = innerObj[item].bind(cloneObj)

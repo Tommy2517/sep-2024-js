@@ -4,11 +4,21 @@
 // при завантажені сторінки з'являються перші 10 об'єктів.
 // При натисканні next виводяться наступні 10 об'єктів
 // При натисканні prev виводяться попередні 10 об'єктів
+
+
+// достаємо сгенерований лорем на 100 слів
 const lorem = document.getElementById('hundre')
+
+// кладемо його у масив кожне слово окремим елементом
 const arr = lorem.innerText.split(' ')
+
+// видаляємо непотрібний текст
 lorem.remove()
 
+// дістаємо статичний блок
 const main = document.getElementById('main')
+
+// створюємо штуку яка відповідає за розташування фокусу
 let counter = 0;
 if (!main.children.length) {
     for (let i = counter; i < counter + 10; i++) {
@@ -43,7 +53,7 @@ function name2(arr) {
 
 const prew = document.getElementById('prew');
 const next = document.getElementById('next');
-let togle = 0  // хз шо це але працює вже запіздно і мозок щось відумує сам я вже його е розумію) 
+let togle = 0  
 next.onclick = (e) => {
     togle = 1
     if (!togle) {
@@ -58,7 +68,7 @@ prew.onclick = (e) => {
     if (togle) {
         counter-=10
     }
-    togle=0 //мабуть перевіряю шо тицяли перед цим і воно допомогає вірішити проблему, коли тицяєш вперед а потім щоб показало попередні 10 блоків преба тицьнути 2 рази
+    togle=0 
     if (counter >= 10) {
         counter-=10
         name2(arr)

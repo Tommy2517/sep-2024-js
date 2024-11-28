@@ -1,0 +1,7 @@
+.hidden > li{
+    display: none;
+}
+
+ul :not(*){
+    color:red
+}
